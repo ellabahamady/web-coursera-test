@@ -1,0 +1,64 @@
+html {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    border: 3px solid #000000;
+    margin: 10px 5px;
+    display: inline-block;
+}
+
+section .title {
+    border: 3px solid #000000;
+    float: right;
+    margin: 0 0 10px 0;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+section .title1 {
+    color: #000000;
+    background-color: palevioletred;
+}
+
+section .title2 {
+    color: #ffffff;
+    background-color: red;
+}
+
+section .title3 {
+    color: #000000;
+    background-color: yellow;
+}
+
+section p {
+    clear: right;
+    margin: 10px;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 31.9%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 48%;
+    }
+
+    .col-md-12 {
+        width: 98%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 98%;
+    }
+}
