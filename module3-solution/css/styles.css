@@ -1,0 +1,9 @@
+section .row {
+    margin: 10px;
+}
+
+.menu {
+    background-color: #e7e7e7;
+    padding: 10px;
+    margin-bottom: 20px;
+}
